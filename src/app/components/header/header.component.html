@@ -1,0 +1,41 @@
+<header>
+  <mat-toolbar color="primary">
+    <div class="flex-row-center">
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>BY WORLD</span>
+    </div>
+
+    <div class="flex-row-center gap-20">
+      <button
+        mat-icon-button
+        class="example-icon favorite-icon"
+        aria-label="Example icon-button with heart icon"
+        color="accent"
+      >
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with share icon"
+      >
+        <mat-icon>share</mat-icon>
+      </button>
+      <button mat-raised-button (click)="openAddEditFormEmployee()">
+        Create Task
+      </button>
+      <button mat-raised-button color="warn">
+        <span>Login</span>
+      </button>
+      <button mat-raised-button color="warn">
+        <span>Register</span>
+      </button>
+    </div>
+  </mat-toolbar>
+</header>

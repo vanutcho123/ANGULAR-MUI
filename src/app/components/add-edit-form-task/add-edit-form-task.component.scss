@@ -1,0 +1,29 @@
+.form-task {
+  width: 700px;
+  border-radius: 10px;
+}
+.content {
+  padding-top: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+mat-form-field {
+  flex: 1;
+  padding-top: 10px;
+}
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  margin-left: 16px;
+}
+.full-width {
+  width: 100%;
+  min-height: 200px;
+}
+mat-dialog-actions {
+  button {
+    flex: 1;
+  }
+}
