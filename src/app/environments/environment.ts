@@ -6,5 +6,5 @@ export const environment = {
 
 export const apiProvinceVN = {
   production: false,
-  apiUrl: "https://provinces.open-api.vn/api" // Api tỉnh thành Việt Nam
-} 
+  apiUrl: 'https://provinces.open-api.vn/api', // Api tỉnh thành Việt Nam
+};
